@@ -1,0 +1,19 @@
+{
+  "name": "project_4",
+  "version": "1.0.0",
+  "description": "This project illustrates a simple example of private blockchain stored in LevelDB and interacted with it through a web server API (Express framework)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bitcoinjs-lib": "^4.0.2",
+    "bitcoinjs-message": "^2.0.0",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.4",
+    "joi": "^13.7.0",
+    "level": "^4.0.0"
+  }
+}
