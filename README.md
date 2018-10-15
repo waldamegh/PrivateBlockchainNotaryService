@@ -80,7 +80,7 @@ node app.js
 
 ## Testing Functions
 
-###1.Blockchain ID Validation:
+### 1.Blockchain ID Validation:
 
 ***Validate User Request***
 ```
@@ -134,7 +134,7 @@ curl -X "POST" "http://localhost:8000/message-signature/validate" \
 }
 ```
 
-###2.Configure Star Registration Endpoint:
+### 2.Configure Star Registration Endpoint:
 
 ***Add Star***
 ```
@@ -173,7 +173,7 @@ curl -X "POST" "http://localhost:8000/block" \
 ```
 
 
-###3.Star Lookup:
+### 3.Star Lookup:
 
 ***Lookup by Blockchain ID (Wallet Address)***
 ```
